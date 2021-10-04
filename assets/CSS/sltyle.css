@@ -1,0 +1,114 @@
+/* Table of Content  */
+/* 
+1. Section Settings
+2. Sectioncaousel
+3. Section Blog
+
+*/
+
+/* Section Settings */
+html, body{
+    height: 100%;   
+}
+
+.bg-alpha{
+    background:rgba(0,0,0,0.5) ;
+}
+
+.border-short-bottom{
+    position: relative;
+    padding: 15px 0;
+    margin-bottom: 25px;
+}
+
+.border-short-bottom::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 6px;
+    bottom: 0;
+    left: 0%;
+    background: #595959;
+}
+
+/* Sectioncaousel */
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-inner .active{
+    height: 100%;
+}
+
+.carousel-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption{
+    top: 40%;
+}
+
+.backscreen{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+/* Section Blog */
+
+.warpper-card-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.warpper-card-img{
+    position: relative;
+    padding-top: 60.25%;
+    
+}
+
+.warpper-card-img img {
+    position: absolute;
+    top: 0;
+    transition: 1s;
+}
+
+.warpper-card-img img:hover {
+    transform: scale(1.2)
+}
+
+.btn-group-custom button{
+    margin-bottom: 0.5rem;
+    width: 140px;
+}
+
+/* section page taitle */
+.page-titel {
+    position: relative;
+    display: block;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    color:#fff;
+}
+
+ /* Section star  */
+ /* ☆★ */
+ .star-rating{
+     position: relative;
+     font-size: 2em;
+     color: gold;
+     display: inline-block;
+ }
+ .star-current{
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+
+
+
+
+
+
