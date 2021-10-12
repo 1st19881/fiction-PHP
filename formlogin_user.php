@@ -1,6 +1,20 @@
+<br>
+<br>
+<br>
+<br>
+<style>
+    body{
+        background-image: url("assets/image/back5.jpg") ;
+        opacity: 0.9;
+    }
+    /* .card{
+        opacity: 0.5;
+    } */
+</style>
+
 <div class="container">
     <div class="row ">
-        <div class="offset-md-3 col-md-6 mt-5">
+        <div class="offset-md-3 col-md-6 mt-5 ">
             <div class="card">
             <h5 class="card-header text-center">เข้าสู่ระบบ</h5>
                 <div class="card-body">

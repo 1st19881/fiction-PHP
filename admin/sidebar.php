@@ -36,7 +36,7 @@
 
 
           <li class="nav-item">
-            <a href="product.php" class="nav-link">
+            <a href="order.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
               <p>จัดการสถานะการชำระเงิน</p>
             </a>
@@ -53,16 +53,7 @@
 
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
-             <i class="far fa-circle nav-icon"></i>
-              <p>ค้นหานิยาย</p>
-            </a>
-          </li>
-
-
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="profile.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
               <p>บัญชีผู้ใช้งาน</p>
             </a>
@@ -72,9 +63,9 @@
 
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="actor.php" class="nav-link">
              <i class="far fa-circle nav-icon"></i>
-              <p>Level 1</p>
+              <p>จัดการผู้แต่ง</p>
             </a>
           </li>
 

@@ -29,6 +29,7 @@ session_start();
                       $row = mysqli_fetch_array($result);
                       $_SESSION["id"] = $row["id"];
                       $_SESSION["name"] = $row["name"];
+                      $_SESSION["image"] = $row["image"];
                       $_SESSION['member_lavel'] = $row["member_lavel"];
                       if($_SESSION["member_lavel"] =="admin"){ 
                         echo '

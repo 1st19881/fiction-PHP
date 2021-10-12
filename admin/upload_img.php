@@ -1,3 +1,12 @@
+<?php  
+
+$query2 = "SELECT fiction_id FROM fiction ";
+$result_q = mysqli_query($conn,$query2);
+
+
+?>
+
+
 <div class="col-md-12">
     <form name="uploadimg" action="upload_imgdb.php" method="POST" enctype="multipart/form-data"
         class="form-horizontal">
@@ -24,9 +33,13 @@
 
 
         <div class="form-group">
-            <div class="col-sm-2" align="">รหัสนิยาย:</div>
             <div class="col-sm-12" align="left">
-                <input name="fiction_id" type="text" required class="form-control" />
+            <div class="form-group">รหัสนิยาย</label>
+                <select class="form-control" id="exampleFormControlSelect1" name="">
+                <?php foreach($result_q as $rowid) { ?>
+                <option value="<?php echo $rowid['fiction_id'];?>"><?php echo $rowid['fiction_id'];?></option>
+               <?php   } ?>         
+                </select>
             </div>
         </div>
 
